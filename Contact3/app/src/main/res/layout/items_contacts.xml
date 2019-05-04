@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#4b4e51"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/item_contact_id">
+
+    <ImageView
+        android:id="@+id/img_contact"
+        android:layout_width="32dp"
+        android:layout_gravity="center"
+        android:layout_height="32dp" />
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="0dp"
+        android:layout_weight="8"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/contact_name"
+            android:text="Aidana Satzhan"
+            android:textColor="#fff"
+             android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/contact_number"
+            android:text="87750180564"
+            android:paddingLeft="20dp"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
